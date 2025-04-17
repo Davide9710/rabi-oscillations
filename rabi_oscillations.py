@@ -268,7 +268,7 @@ def main():
     st.sidebar.title("Quantum Phenomena Simulator")
     app_selection = st.sidebar.radio(
         "Select Simulation",
-        ["Rabi Oscillations", "Ramsey Interference", "Photon Echo"]
+        ["Rabi Oscillations", "Ramsey Interference [WIP]", "Photon Echo [WIP]"]
     )
     
     if app_selection == "Rabi Oscillations":
